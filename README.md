@@ -40,6 +40,9 @@ Encryption Type (-e):
 Ouput (-o):
         -o cli - Ouput to CLI
         -o file - Output to template files
+        
+        .\encrypt.exe -l cpp -m string -i VirtualAllocEx,WriteProcessMemory,CreateRemoteThread,VirtualAlloc,CreateToolhelp32Snapshot,kernel32.dll,explorer.exe,Process32Next,Process32First,OpenProcess,CloseHandle,FindResourceA,LoadResource,LockResource,SizeofResource,RtlMoveMemory,WaitForSingleObject -e manual -k Password -s Salt -v InitVal123 -o file
+        
 ```
 
 ## Usage: C# File Mode with Random Encryption Material Output to File
